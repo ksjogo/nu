@@ -61,7 +61,7 @@
 
 void nu_swizzleContainerClasses()
 {
-    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+    /*NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
     Class NSCFDictionary = NSClassFromString(@"NSCFDictionary");
     Class NSCFArray = NSClassFromString(@"NSCFArray");
     Class NSCFSet = NSClassFromString(@"NSCFSet");
@@ -73,7 +73,7 @@ void nu_swizzleContainerClasses()
     [NSCFArray exchangeInstanceMethod:@selector(insertObject:atIndex:) withMethod:@selector(nuInsertObject:atIndex:)];
     [NSCFArray exchangeInstanceMethod:@selector(replaceObjectAtIndex:withObject:) withMethod:@selector(nuReplaceObjectAtIndex:withObject:)];
     [NSCFSet exchangeInstanceMethod:@selector(addObject:) withMethod:@selector(nuAddObject:)];
-    [pool drain];
+    [pool drain];*/
 }
 
 

@@ -175,9 +175,9 @@
 		22EE2C0413A4731600895861 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22EE2C0213A4731600895861 /* InfoPlist.strings */; };
 		22EE2C0613A4731600895861 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EE2C0513A4731600895861 /* main.m */; };
 		22EE2C0A13A4731600895861 /* NuAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EE2C0913A4731600895861 /* NuAppDelegate.m */; };
+		4302A9C2211E5FA40024E75E /* libffi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 433CE56A1D38EA4100EE7273 /* libffi.a */; };
 		43B5D4101D3668A600D1E1FD /* libNuTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B5D4021D36686B00D1E1FD /* libNuTouch.a */; };
 		43CBE43D1EA8B3580043AA84 /* NuAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CBE43C1EA8B3580043AA84 /* NuAppTests.m */; };
-		43DCFCB31D369D8200CB6E63 /* libffi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43DCFCB21D369D8200CB6E63 /* libffi.a */; };
 		43DCFCB91D37938100CB6E63 /* NSArray+Nu.m in Sources */ = {isa = PBXBuildFile; fileRef = 2217EC3F1CCDAED00082837B /* NSArray+Nu.m */; };
 		43DCFCBB1D37938100CB6E63 /* NSBundle+Nu.m in Sources */ = {isa = PBXBuildFile; fileRef = 2217EC301CCDAC600082837B /* NSBundle+Nu.m */; };
 		43DCFCBD1D37938100CB6E63 /* NSData+Nu.m in Sources */ = {isa = PBXBuildFile; fileRef = 2217EC531CCDB0D40082837B /* NSData+Nu.m */; };
@@ -463,7 +463,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43DCFCB31D369D8200CB6E63 /* libffi.a in Frameworks */,
+				4302A9C2211E5FA40024E75E /* libffi.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +507,7 @@
 				22B3B38713B033D400B3AB31 /* test */,
 				22B3B50B13B03CF400B3AB31 /* Targets */,
 				034768DFFF38A50411DB9C8B /* Products */,
+				4302A9C0211E5F7A0024E75E /* Frameworks */,
 			);
 			name = Nu;
 			sourceTree = "<group>";
@@ -760,6 +761,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4302A9C0211E5F7A0024E75E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		433CE5651D38EA4100EE7273 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -933,8 +941,11 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1000;
 				TargetAttributes = {
+					22EE2BF313A4731600895861 = {
+						DevelopmentTeam = 42X6KG69RS;
+					};
 					43B5D4011D36686B00D1E1FD = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -1445,7 +1456,7 @@
 				CLANG_ENABLE_OBJC_ARC = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 42X6KG69RS;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
@@ -1486,7 +1497,7 @@
 				CLANG_ENABLE_OBJC_ARC = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 42X6KG69RS;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",

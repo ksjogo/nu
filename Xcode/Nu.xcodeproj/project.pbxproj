@@ -175,7 +175,6 @@
 		22EE2C0413A4731600895861 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22EE2C0213A4731600895861 /* InfoPlist.strings */; };
 		22EE2C0613A4731600895861 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EE2C0513A4731600895861 /* main.m */; };
 		22EE2C0A13A4731600895861 /* NuAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EE2C0913A4731600895861 /* NuAppDelegate.m */; };
-		4302A9C2211E5FA40024E75E /* libffi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 433CE56A1D38EA4100EE7273 /* libffi.a */; };
 		43B5D4101D3668A600D1E1FD /* libNuTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B5D4021D36686B00D1E1FD /* libNuTouch.a */; };
 		43CBE43D1EA8B3580043AA84 /* NuAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CBE43C1EA8B3580043AA84 /* NuAppTests.m */; };
 		43DCFCB91D37938100CB6E63 /* NSArray+Nu.m in Sources */ = {isa = PBXBuildFile; fileRef = 2217EC3F1CCDAED00082837B /* NSArray+Nu.m */; };
@@ -222,6 +221,7 @@
 		4F43427C1420476C00AC1BFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F43427B1420476C00AC1BFD /* main.m */; };
 		56E07744170B028400FF0A4B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56E07743170B028400FF0A4B /* Default-568h@2x.png */; };
 		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
+		8F99C0BD24046E14006B97E2 /* libffi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 433CE56A1D38EA4100EE7273 /* libffi.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -463,7 +463,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4302A9C2211E5FA40024E75E /* libffi.a in Frameworks */,
+				8F99C0BD24046E14006B97E2 /* libffi.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -941,7 +941,7 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					22EE2BF313A4731600895861 = {
 						DevelopmentTeam = 42X6KG69RS;
